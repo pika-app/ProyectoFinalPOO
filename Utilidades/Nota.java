@@ -1,29 +1,26 @@
-public class Recompensa {
-    private String nombreRecompensa;
-    private int puntosRecompensa; 
-    
-    public Recompensa(String nombreRecompensa, int puntosRecompensa){
-        this.nombreRecompensa = nombreRecompensa; 
-        this.puntosRecompensa = puntosRecompensa; 
-  
+public class Nota {
+    private String contenido;
+    private String nombreNota;
+
+    public Nota(String contenido,String nombreNota){
+        this.contenido=contenido;
+        this.nombreNota=nombreNota; 
     }
 
-    public String getNombreRecompensa() {
-        return nombreRecompensa;
+
+    public String getContenido() {
+        return contenido;
     }
 
-    public void setNombreRecompensa(String nombreRecompensa) {
-        this.nombreRecompensa = nombreRecompensa;
-    }
-
-    public int getPuntosRecompensa() {
-        return puntosRecompensa;
-    }
-
-    public void setPuntosRecompensa(int puntosRecompensa) {
-        this.puntosRecompensa = puntosRecompensa;
+    public void setContenido(String contenido) {
+        this.contenido = contenido;
     }
     
+    public String getNombreNota(){
+        return nombreNota; 
+    }
     
-    
+    public void setNombreNota(String nombreNota){
+        this.nombreNota = nombreNota;
+    }
 }
